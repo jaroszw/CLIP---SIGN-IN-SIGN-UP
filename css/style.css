@@ -1,0 +1,11 @@
+/* line 1, sass/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 7, sass/main.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff; }
