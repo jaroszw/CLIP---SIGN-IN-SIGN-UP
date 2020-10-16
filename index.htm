@@ -12,53 +12,55 @@
 <body>
   
 <div class="wrapper">
-  <div class="container"></div>
 
-
-  <div class="action-wrapper">
-    
-    <div class="log-wrapper singin-wrapper">
-      <div class="form-container form-signin">
-        <form action="" class='form'>
-          <div class="social-icons">
-            <div class="social"><i><i class="fab fa-facebook-f"></i></i></div>
-            <div class="social"><i><i class="fab fa-instagram"></i></i></div>
-            <div class="social"><i><i class="fab fa-youtube"></i></i></div>
-          </div>
-          <h1>Good to see you again</h1>
-          <input type="text" placeholder="email">
-          <input type="password" placeholder="password">
-        </form>
-      </div>
-      <div class="image-wrapper">
-        <div class="image">
-          <img class="img" src="girl.svg" alt="">
-        </div>
-      </div>
+  <div class="image__wrapper">
+    <div class="container__image boy">
+      <button class='chaneg'>CLIC</button>
+      <img  class="img" src="boy.svg" alt="">
+    </div>  
+    <div class="container__image girl">
+      <img  class="img" src="girl.svg" alt="">
     </div>
-
-    <div class="log-wrapper signup-wrapper">
-      <div class="image-wrapper">
-        <div class="image">
-          <img class="img" src="boy.svg" alt="">
-        </div>
-      </div>
-      <div class="form-container form-signup">
-        <form action="" class='form'>
-          <div class="social-icons">
-            <div class="social"><i><i class="fab fa-facebook-f"></i></i></div>
-            <div class="social"><i><i class="fab fa-instagram"></i></i></div>
-            <div class="social"><i><i class="fab fa-youtube"></i></i></div>
-          </div>
-          <h1>Let's be friends. </h1>
-          <input type="text" placeholder="email">
-          <input type="password" placeholder="password">
-        </form>
-      </div>
-    </div>
-  
-  
   </div>
+
+  <div class="content__wrapper">
+    <div class="container signin">
+     
+      <div class="container__form">
+        <form action="" class='form'>
+          <div class="form__social">
+            <div class="social__icon"><i><i class="fab fa-facebook-f"></i></i></div>
+            <div class="social__icon"><i><i class="fab fa-instagram"></i></i></div>
+            <div class="social__icon"><i><i class="fab fa-youtube"></i></i></div>
+          </div>
+          <h1 class='form__header'>Good to see you again</h1>
+          <input class="form__input" type="text" placeholder="email">
+          <input class="form__input" type="password" placeholder="password">
+          <button class="form__button" type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+      
+    <div class="container signup">
+      
+      <div class="container__form">
+        <form action="" class='form'>
+          <div class="form__social">
+            <div class="social__icon"><i><i class="fab fa-facebook-f"></i></i></div>
+            <div class="social__icon"><i><i class="fab fa-instagram"></i></i></div>
+            <div class="social__icon"><i><i class="fab fa-youtube"></i></i></div>
+          </div>
+          <h1 class='form__header'>Let's become friends</h1>
+          <input class="form__input" type="text" placeholder="name">
+          <input class="form__input" type="email" placeholder="email">
+          <input class="form__input" type="password" placeholder="password">
+          <button class="form__button" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
 
 </div>
 
